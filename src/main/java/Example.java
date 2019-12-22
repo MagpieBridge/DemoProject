@@ -8,5 +8,6 @@ public class Example{
        String data = "some data";
        String key = "secret key";
        Cipher cipher = Cipher.getInstance("AES/ECB/PKCS5Padding");
+       Encrypt.encrypt(cipher, data, key);
     }
   }
