@@ -1,1 +1,4 @@
 image: adoptopenjdk/openjdk8
+vscode:
+  extensions:
+    - linghui-luo.HelloWorld@0.0.1:GAAReR9wHq8LwMPa18yW3g==
