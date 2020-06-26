@@ -12,7 +12,7 @@ public class Encrypt {
 		try {
 			cipher.init(Cipher.DECRYPT_MODE, secretKey);
 			return cipher.doFinal(data.getBytes());
-		} catch (IllegalBlockSizeException | BadPaddingException | InvalidKeyException e) {
+		} catch (Exception e) {
 			throw new RuntimeException(e);
 		}
 	}
